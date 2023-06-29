@@ -1,0 +1,2 @@
+A multi-step DQN algorithm implementation using Keras, for training the agent using a practical VM cluster set up. The testbed is composed of a kubernetes cluster on which the Kubeless serverless framework is deployed. Prometheus monitoring tool is installed on the control plane for recording cluster metrics. 
+The DQN agent is integrated with the Kubernetes APIs in order to derive state/reward metrics real time. The Jmeter load generation tool is used to generate requests for the deployed funcions. This data is used for training the model online.
